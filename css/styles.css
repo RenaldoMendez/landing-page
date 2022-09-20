@@ -3,9 +3,15 @@
     color:white
 }
 
-img{
+img {
     height: 10em;
     width:auto;
+    border:solid #3882F6;
+    border-radius: 10%;
+}
+#current-project-image{
+    border:solid #5d646e;
+    border-radius: 0%;
 }
 #header-bar{
     display: flex;
@@ -25,4 +31,18 @@ img{
 #preview{
     background-color: #3882F6;
     color: white;
+    border-radius: 15%;
+}
+
+/*Section-two*/
+#section-two-title{
+    display:flex;
+    justify-content: center;
+    flex:auto;
+}
+#featured-projects{
+    display:flex;
+    justify-content: space-around;
+    flex:auto;
+    text-align: center;
 }
