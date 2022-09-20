@@ -35,6 +35,11 @@ img {
 }
 
 /*Section-two*/
+#section-two{
+    display: flex;
+    flex-direction: column;
+    flex:auto;
+}
 #section-two-title{
     display:flex;
     justify-content: center;
@@ -45,4 +50,28 @@ img {
     justify-content: space-around;
     flex:auto;
     text-align: center;
+}
+/*Section-three*/
+#section-three{
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 10%;
+}
+/*Section-four*/
+#section-four{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+
+}
+#blue-box{
+    display:flex;
+    background-color: #3882F6;
+    justify-content: ;
+
+}
+
+#contact-me{
+    background-color: #3882F6;
+
 }
