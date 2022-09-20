@@ -22,3 +22,7 @@ img{
     display: flex;
     justify-content: space-around;
 }
+#preview{
+    background-color: #3882F6;
+    color: white;
+}
