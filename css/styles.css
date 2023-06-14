@@ -62,3 +62,35 @@ li{
     border-radius: 8px;
 }
 
+/* Section two */
+
+.section-two{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937
+}
+
+.project-links{
+    display:flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.project-images{
+    width: 200px;
+    height: auto;
+    border: solid #3882F6 3px;
+    border-radius: 10px;
+}
+
+.project-images.book-mng{
+    width:200px;
+    height: 133.34px;
+}
